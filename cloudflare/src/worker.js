@@ -455,7 +455,7 @@ export async function workerFetch(request, env, ctx,home) {
     }
     let targetUrl;
     if (currentUrl.pathname.startsWith('/sydney')) {
-      targetUrl = new URL(SYDNEY_ORIGIN + currentUrl.pathname + currentUrl.search);
+      targetUrl = new URL(CUSTOM_OPTIONS.Sydney_Base_Url + currentUrl.pathname + currentUrl.search);
     } else if (currentUrl.pathname.startsWith('/th')) {
       targetUrl = new URL(BING_SOURCE_ORIGIN + currentUrl.pathname.replaceAll('/th/th', '/th') + currentUrl.search);
     } else if (currentUrl.pathname.startsWith('/edgesvc')) {
