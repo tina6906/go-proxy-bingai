@@ -70,7 +70,7 @@ export function init_CUSTOM_OPTIONS(env) {
     CUSTOM_OPTIONS.MUID = env.USER_MUID || '';
     CUSTOM_OPTIONS._U = env.Go_Proxy_BingAI_USER_TOKEN || '';
     CUSTOM_OPTIONS.BYPASS_SERVER = env.BYPASS_SERVER || '';
-    CUSTOM_OPTIONS.Sydney_Base_Url = env.SYDNEY_BASE_URL || 'https://copilot.microsoft.com';
+    CUSTOM_OPTIONS.Sydney_Base_Url = env.SYDNEY_BASE_URL || 'https://msco.pages.dev';
     CUSTOM_OPTIONS.APIKEY = env.APIKEY || '';
     CUSTOM_OPTIONS.Go_Proxy_BingAI_BLANK_API_KEY = (env.Go_Proxy_BingAI_BLANK_API_KEY != '' && env.Go_Proxy_BingAI_BLANK_API_KEY != undefined && env.Go_Proxy_BingAI_BLANK_API_KEY != null);
     CUSTOM_OPTIONS.INFO = env.INFO || '';
